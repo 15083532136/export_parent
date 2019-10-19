@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/login.jsp"/>
+        <property name="successUrl" value="/home.jsp"/>
+        <property name="unauthorizedUrl" value="/unauthorized.jsp"/>
+
+        <property name="filterChainDefinitions">
+            <value>
+                /css/** = anon
+                /make/** = anon
+                /img/** =anon
+                /images/** = anon
+                /plugins/** = anon
+                /login.jsp = anon
+                /loginout = logout
+                /login* = anon
+                /index.jsp = anon
+                /system/user/list.do = perms["用户管理"]
+               /system/module/list.do = perms["模块管理"]
+                /cargo/contract/list.do = perms["购销合同"]
+                /** = authc
+            </value>
+        </property>
+    </bean>
+
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="myRealm"/>
+    </bean>
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+    <bean id="myRealm" class="cn.itcast.web.utils.AuthRealm">
+        <!--将Md5加密配置到myRealm中-->
+        <property name="credentialsMatcher" ref="credentialsMatcher"/>
+    </bean>
+
+    <!-- 配置MD5加密，若不进行MD5加密，这段代码不用 -->
+    <bean id="credentialsMatcher" class="cn.itcast.web.utils.CustomCredentialsMatcher">
+    </bean>
+
+    <!--实现注解实现权限管理-->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+          depends-on="lifecycleBeanPostProcessor"/>
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+</beans>

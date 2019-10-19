@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="export_dao" />
+        <module name="export_company_service" />
+        <module name="export_company_interface" />
+        <module name="export_cargo_service" />
+        <module name="mybatis_generate" />
+        <module name="export_web_portal" />
+        <module name="export_cargo_interface" />
+        <module name="export_web_manager" />
+        <module name="export_domain" />
+        <module name="renren-generator" />
+        <module name="export_service_system" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="export_service_interface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>
