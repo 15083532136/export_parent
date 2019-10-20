@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/export_company_service" />
     <file type="web" url="file://$PROJECT_DIR$/export_web_manager" />
     <file type="web" url="file://$PROJECT_DIR$/export_web_portal" />
+    <file type="web" url="file://$PROJECT_DIR$/jk_export" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,12 +13,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../mybatis_generate/pom.xml" />
         <option value="$PROJECT_DIR$/../renren-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/jk_export/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/export_service_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/export_web_manager/pom.xml" />
       </set>
     </option>
   </component>
