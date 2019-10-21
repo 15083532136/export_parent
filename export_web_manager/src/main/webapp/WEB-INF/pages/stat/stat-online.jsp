@@ -35,31 +35,45 @@
 <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <script src="../../plugins/echarts/echarts.min.js"></script>
 <script type="text/javascript">
-    // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('main'));
-    // 指定图表的配置项和数据
-    $.get('/stat/onlineCharts.do').done(function (data) {
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(
-            {
-                title: {
-                    left: 'center',
-                    text: '在线人数折线图',
-                },
-                xAxis: {
-                    type: 'category',
-                    data: data.title
-                },
-                yAxis: {
-                    type: 'value'
-                },
-                series: [{
-                    data: data.value,
-                    type: 'line'
-                }]
+    $(function () {
+        $.get({
+            url: "/stat/online.do",
+            dataType: "json",
+            success: function (result) {
+                initEcharts(result);
             }
-        )
+        });
     });
+
+
+    function initEcharts(result) {
+        //产品销量排行
+
+        var names = [];
+        var values = [];
+        for (var i = 0; i < result.length; i++) {
+            names[i] = result[i].name;
+            values[i] = result[i].value;
+        }
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        option = {
+            xAxis: {
+                type: 'category',
+                data: names
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                data: values,
+                type: 'line'
+            }]
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    }
 </script>
 
 </html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.dao.stat.StatDao">
+
+    <select id="factorySale" resultType="map">
+        SELECT p.factory_name `name`,SUM(p.value) `value`  FROM (
+            SELECT
+               cp.factory_name,
+               SUM(cp.amount) VALUE
+            FROM co_contract_product cp
+            WHERE 1=1
+               AND cp.factory_name IS NOT NULL
+            GROUP BY cp.factory_name
+            UNION ALL
+            SELECT
+               c.factory_name,
+               SUM(c.amount) VALUE
+            FROM co_ext_cproduct c
+            WHERE 1=1
+               AND c.factory_name IS NOT NULL
+            GROUP BY c.factory_name
+            ) p GROUP BY p.factory_name
+    </select>
+    
+    <select id="sellSale" resultType="map">
+        SELECT product_no `name`,SUM(amount) `value`
+        FROM co_contract_product
+        WHERE product_no IS NOT NULL AND product_no !=''
+        GROUP BY product_no
+        ORDER BY `value` DESC
+        LIMIT #{top}
+    </select>
+
+    <select id="online" resultType="map">
+        SELECT o.a1 `name`,IFNULL(p.value,0) `value` FROM st_online_info o
+        LEFT JOIN (
+        SELECT DATE_FORMAT(TIME,'%H') `name`,COUNT(1) `value`FROM st_sys_log GROUP BY NAME
+        ) p ON o.a1=p.name
+    </select>
+</mapper>

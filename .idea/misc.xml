@@ -16,11 +16,6 @@
         <option value="$PROJECT_DIR$/jk_export/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/export_service_interface/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectResources">
     <resource url=" &amp;lt;!DOCTYPE mapper PUBLIC &quot;-//mybatis.org//DTD Mapper 3.0//EN&quot; &quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot; &gt;" location="" />
