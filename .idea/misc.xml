@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/../mybatis_generate/pom.xml" />
         <option value="$PROJECT_DIR$/../renren-generator/pom.xml" />
         <option value="$PROJECT_DIR$/jk_export/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/pom.xml" />
       </list>
     </option>
   </component>

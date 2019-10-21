@@ -7,582 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb4d1c8b-0480-47fe-801d-48e1a437df97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/export_company_interface/export_company_interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_company_service/export_company_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_dao/export_dao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_dao/src/main/java/cn/itcast/dao/stat/StatDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_dao/src/main/resources/cn/itcast/dao/stat/StatDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_domain/export_domain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_domain/src/main/java/cn/itcast/vo/ExportProductResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_domain/src/main/java/cn/itcast/vo/ExportProductVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_domain/src/main/java/cn/itcast/vo/ExportResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_domain/src/main/java/cn/itcast/vo/ExportVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_service_system/export_service_system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_stat_interface/export_stat_interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_stat_service/export_stat_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/controller/cargo/PdfController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/utils/BeanMapUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_web_manager/src/main/resources/jasperreports_extension.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_web_manager/src/main/resources/stsong/fonts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_web_manager/src/main/resources/stsong/stsong.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_web_manager/src/main/webapp/jasper/export.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/export_web_portal/export_web_portal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk_export/jk_export.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitMQ/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_interface/src/main/java/cn/itcast/service/cargo/ExportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/export_cargo_interface/src/main/java/cn/itcast/service/cargo/ExportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_interface/target/classes/cn/itcast/service/cargo/ExportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/export_cargo_interface/target/classes/cn/itcast/service/cargo/ExportService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_interface/target/export_cargo_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_interface/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/export_cargo_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/export_cargo_service/export_cargo_service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/src/main/java/cn/itcast/service/cargo/impl/ExportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/export_cargo_service/src/main/java/cn/itcast/service/cargo/impl/ExportServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/src/main/resources/spring/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/export_cargo_service/src/main/resources/spring/applicationContext-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/cn/itcast/service/cargo/impl/ContractProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/cn/itcast/service/cargo/impl/ContractServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/cn/itcast/service/cargo/impl/ExportProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/cn/itcast/service/cargo/impl/ExportServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/cn/itcast/service/cargo/impl/ExtCproductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/cn/itcast/service/cargo/impl/FactoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/spring/applicationContext-dubbo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/classes/spring/applicationContext-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/export_cargo_service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_cargo_service/target/test-classes/cn/itcast/provider/CargoProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_interface/target/export_company_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_interface/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/export_company_service (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/export_company_service/export_company_service .iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/src/main/resources/spring/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/export_company_service/src/main/resources/spring/applicationContext-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/classes/cn/itcast/service/company/impl/CompanyServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/classes/spring/applicationContext-dubbo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/classes/spring/applicationContext-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/classes/cn/itcast/service/company/impl/CompanyServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-dubbo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/activemq-all-5.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/curator-client-4.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/curator-framework-4.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.6.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/export_company_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/export_dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/export_domain-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/netty-all-4.1.32.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/shiro-core-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/shiro-spring-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/shiro-web-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-1.1.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.7.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.4.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/export_company_service-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_company_service/target/test-classes/cn/itcast/service/CompanyProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_dao/export_dao (1).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_dao/src/main/main4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/export_dao/src/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_dao/target/export_dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_dao/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_domain/target/export_domain-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_domain/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_service_system/src/main/main27.iml" beforeDir="false" afterPath="$PROJECT_DIR$/export_service_system/src/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_service_system/target/export_service_system-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_service_system/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_service_system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_service_system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_service_system/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/stat/stat-factory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/stat/stat-factory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/stat/stat-online.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/stat/stat-online.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/stat/stat-sell.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/stat/stat-sell.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_cargo_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_cargo_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_company_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_company_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_service_system-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/lib/export_service_system-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/pages/stat/stat-factory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/pages/stat/stat-factory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/pages/stat/stat-online.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/pages/stat/stat-online.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/pages/stat/stat-sell.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/pages/stat/stat-sell.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/build-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/build-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/bn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/bs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/de-ch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en-au.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en-gb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/eo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fo.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fr-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fr-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/gu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/km.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ku.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/mn.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/mn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/pt-br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/si.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sr-latn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/tt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/ug.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/lang/zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/samples/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ckeditor/samples/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/layer/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/layer/mobile/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/layer/mobile/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/css/metroStyle/metroStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/css/metroStyle/metroStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/css/zTreeStyle/zTreeStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery-1.4.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery-1.4.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.all-3.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.all-3.5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.all-3.5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.core-3.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.core-3.5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.core-3.5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.core-3.5.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.excheck-3.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.excheck-3.5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.excheck-3.5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.excheck-3.5.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exedit-3.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exedit-3.5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exedit-3.5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exedit-3.5.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exhide-3.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exhide-3.5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exhide-3.5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/export_web_manager/target/export_web_manager-1.0-SNAPSHOT/plugins/ztree/js/jquery.ztree.exhide-3.5.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/surefire-reports/TEST-cin.itcast.test.TestApp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_manager/target/surefire-reports/cin.itcast.test.TestApp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/classes/cn/itcast/web/controller/ApplyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/classes/cn/itcast/web/controller/ApplyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/activemq-all-5.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/curator-client-4.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/curator-framework-4.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.6.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/export_company_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/export_domain-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/netty-all-4.1.32.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/okhttp-3.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/okio-1.14.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/qiniu-java-sdk-7.2.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/shiro-core-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/shiro-spring-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/shiro-web-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-1.1.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.7.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.4.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/apply.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/commit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/css/apply.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/css/process.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/css/public.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/aa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/address.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/bl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/br.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/checked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/dd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/email.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/examplebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/firstbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/fivebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/formtitle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/fourbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/hoveraa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/hoverbb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/hovercc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/hoverdd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/logo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/logo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/logo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/plane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/secondbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/secondboxbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/shadowbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/wechat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/images/weixin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap-3.3.7/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/dist/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/dist/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/parseJSON.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/var/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/DOMEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/nodeName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/readyException.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/adjustCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/defaultDisplay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/var/isHidden.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/var/rmargin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/css/var/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/data/var/acceptData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/data/var/dataPriv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/data/var/dataUser(1).js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/event/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/event/alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/event/focusin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/event/trigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/intro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/getAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/outro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/traversing/var/dir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/traversing/var/siblings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/documentElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/fnToString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/getProto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/rcssNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/rnotwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/messages_zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/ajax-loader(1).gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/owl.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/owl.theme.green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/owl.theme.green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/assets/owl.video.play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/export_web_portal-1.0-SNAPSHOT/plugins/owl.carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_web_portal/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/export_cargo_interface/target/" />
@@ -601,6 +31,7 @@
     <ignored path="$PROJECT_DIR$/jk_export/target/" />
     <ignored path="$PROJECT_DIR$/export_stat_interface/target/" />
     <ignored path="$PROJECT_DIR$/export_stat_service/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitMQ/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -627,10 +58,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/controller/cargo/PdfController.java">
+        <entry file="file://$PROJECT_DIR$/rabbitMQ/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="540">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -638,29 +79,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/utils/ConnectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="330" column="21" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="21" />
+            <state relative-caret-position="864">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/export_domain/src/main/java/cn/itcast/domain/cargo/ExportProduct.java">
+        <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.5.0/jasperreports-6.5.0-sources.jar!/net/sf/jasperreports/engine/JasperFillManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="966" column="31" selection-start-line="966" selection-start-column="21" selection-end-line="966" selection-end-column="31" />
+            <state relative-caret-position="828">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -704,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/export_service_system/src/main/java/cn/itcast/service/system/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/export_web_manager/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/export_web_manager/src/main/resources/properties/qiniu.properties" />
-        <option value="$PROJECT_DIR$/export_domain/src/main/java/cn/itcast/domain/cargo/Contract.java" />
-        <option value="$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/utils/FileUploadUtil.java" />
         <option value="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/cargo/extc/extc-list.jsp" />
         <option value="$PROJECT_DIR$/export_web_manager/src/main/webapp/WEB-INF/pages/cargo/extc/extc-update.jsp" />
         <option value="$PROJECT_DIR$/export_cargo_service/src/main/java/cn/itcast/service/cargo/impl/ExtCproductServiceImpl.java" />
@@ -755,6 +188,11 @@
         <option value="$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/utils/BeanMapUtils.java" />
         <option value="$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/controller/cargo/PdfController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/ConnectionUtil.java" />
+        <option value="$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Producer.java" />
+        <option value="$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/utils/ConnectionUtil.java" />
+        <option value="$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Consumer.java" />
       </list>
     </option>
   </component>
@@ -792,26 +230,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="export_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="rabbitMQ" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="export_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="export_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="rabbitMQ" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="export_web_manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="export_web_manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="rabbitMQ" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.rabbitmq:amqp-client:5.6.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -821,10 +251,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="710" />
-    <option name="y" value="46" />
+    <option name="x" value="91" />
+    <option name="y" value="61" />
     <option name="width" value="1620" />
-    <option name="height" value="870" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -850,6 +280,61 @@
             <path>
               <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="export_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="export_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -921,7 +406,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/export_stat_service/src/test/java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/export_web_manager/src/main/webapp/jasper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -959,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.export_web_manage:8080">
+  <component name="RunManager" selected="Application.Producer">
     <configuration name="CargoProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.provider.CargoProvider" />
       <module name="export_cargo_service" />
@@ -981,6 +466,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.itcast.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.simple.Consumer" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.rabbitmq.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.simple.Producer" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.rabbitmq.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1161,15 +672,17 @@
       <item itemvalue="Application.CargoProvider" />
       <item itemvalue="Application.CompanyProvider" />
       <item itemvalue="Application.StatProvider" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Consumer" />
       <item itemvalue="Spring Boot.RenrenApplication" />
       <item itemvalue="Tomcat Server.jk_export:8091" />
       <item itemvalue="Tomcat Server.export_web_manage:8080" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.StatProvider" />
-        <item itemvalue="Application.CompanyProvider" />
-        <item itemvalue="Application.CargoProvider" />
         <item itemvalue="Application.CompanyProvider" />
         <item itemvalue="Application.CargoProvider" />
       </list>
@@ -1228,7 +741,8 @@
       <workItem from="1571622141620" duration="1489000" />
       <workItem from="1571623634978" duration="6894000" />
       <workItem from="1571642958613" duration="575000" />
-      <workItem from="1571652246951" duration="4556000" />
+      <workItem from="1571652246951" duration="8965000" />
+      <workItem from="1571665336757" duration="887000" />
     </task>
     <task id="LOCAL-00001" summary="​&#9;国际物流的业务闭环涉及到海关、船东、港区、仓库、拖车、报关行等多个关联方，交易周期长，支付结算体系受到限制——其复杂性决定了工具的必要性，需要通过工具来建立连接，完成信息的流转。Saas-Export服务于货代企业，通过提供SaaS工具，帮助中小企业简单便利的对国际物流全环节进行流程控制。项目重点围绕四个方面：&#10;1、 权限管理：对登入系统的员工进行细粒度的权限控制 &#10;&#10;2、 货物管理：提供货物的全流程管理，包含商品详情，报价&#10;&#10;3、 报运管理：包括购销合同，出口报运，装箱，委托，发票&#10;&#10;4、 统计管理：以图形化界面的方式对销售，财务数据展示">
       <created>1571532846129</created>
@@ -1258,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571550625300</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="出口报运PDF报表下载">
+      <created>1571660203738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571660203738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1267,12 +788,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147285000" />
+    <option name="totallyTimeSpent" value="152581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Project" order="0" sideWeight="0.49597856" visible="true" weight="0.23793566" />
+      <window_info id="Project" order="0" sideWeight="0.49597856" weight="0.2374798" />
       <window_info id="Structure" order="1" sideWeight="0.50402147" side_tool="true" weight="0.19168901" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1283,7 +804,7 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4957507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5566572" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" weight="0.38101983" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1297,10 +818,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32719547" />
+      <window_info anchor="right" id="Translation Assistant" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.24932976" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.24932976" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -1358,7 +880,8 @@
     <MESSAGE value="海关报运系统" />
     <MESSAGE value="依赖" />
     <MESSAGE value="报运平台提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="报运平台提交" />
+    <MESSAGE value="出口报运PDF报表下载" />
+    <option name="LAST_COMMIT_MESSAGE" value="出口报运PDF报表下载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1391,50 +914,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jk_export/src/main/java/cn/itcast/export/webservice/IEpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="116">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../renren-generator/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="696">
-            <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/controller/cargo/ExportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2132">
-          <caret line="203" column="34" selection-start-line="203" selection-start-column="34" selection-end-line="203" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../renren-generator/src/main/java/io/renren/RenrenApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../renren-generator/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1703,6 +1182,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="330" column="21" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/export_web_manager/src/main/java/cn/itcast/web/controller/cargo/PdfController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -1713,10 +1199,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0-sources.jar!/com/rabbitmq/client/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="330" column="21" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="21" />
+        <state relative-caret-position="107">
+          <caret line="586" column="28" selection-start-line="586" selection-start-column="24" selection-end-line="586" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitMQ/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/utils/ConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/cn/itcast/rabbitmq/simple/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
